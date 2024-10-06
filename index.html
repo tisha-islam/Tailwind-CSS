@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./library/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -20,9 +22,23 @@
                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-            <div>
+            <div class="flex justify-between">
                 <button type="button" class="py-3 px-8 rounded-2xl bg-[#2c2c5e] text-[white]">REGISTER</button>
-                <i class="fa fa-bars md:hidden text-[30px]" aria-hidden="true"></i>
+               
+                  
+                        <div class="dropdown dropdown-bottom dropdown-end block md:hidden">
+                            <div tabindex="0" role="button" class="btn m-1"><i class="fa fa-bars  text-[20px]" aria-hidden="true"></i></div>
+                            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow absolute right-0">
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">PORTFOLIO</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">SERVICES</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                          </div>
+                    
+                      </div>
+                
                     
                 
             </div>
@@ -36,7 +52,7 @@
                 <h1 class="text-[50px] ml-[30px] sm:text-[88px] font-light text-white md-leading-[96px]">Consistent Sustainable Growth.</h1>
             </div>
             <div class="w-[724px] h-[736px] mt-[65px] relative">
-                <img src="./Image/Card 1.png" class="absolute top-0 left-[217px] z-[2]" alt="">
+                <img src="./Image/Card 1.png" class="absolute md:top-0 md:left-[217px] left-[170px] z-[2]" alt="">
                 <img src="./Image/Card 2.png" class="absolute left-0 top-[209px] z-[2]" alt="">
                 <img src="./Image/BG.png" alt="" class="absolute bottom-[50px] left-[171px] z-[3] hidden md:block">
                 <img src="./Image/male-hand-holding-digital-transparent-rocket-icon-startup-business-concept-rocket-is-launching-soar-flying-concept-business-idea 1 1.png" class="absolute right-0 bottom-0 w-[411px]">
@@ -61,14 +77,14 @@
                 </div>
             </div>
         </section>
-        <section class="flex justify-around flex-wrap md:flex-nowrap  md:mt-[129px] ml-[40px]">
+        <section class="flex justify-around flex-wrap md:flex-nowrap  md:mt-[129px] md:ml-[40px] p-[20px]">
             <div class="w-[538px] h-[542px] md:w-[360px] mt-[40px] ">
-                <h1 class="sm:text-[44px] text-[30px] leading-[48px] font-[600px] w-[350px] md:w-[538px] h-[98px] text-[#133063] ">Quick judge other leave ask first chief her</h1>
-                <div class="shadow-2xl w-[340px] p-[10px] md:w-[523px] h-[191px] md:p-[30px]">
+                <h1 class="sm:text-[44px] text-[30px] leading-[48px] font-[600px]  md:w-[538px] h-[98px] text-[#133063] ">Quick judge other leave ask first chief her</h1>
+                <div class="shadow-2xl  p-[25px] md:w-[523px] md:h-[191px] md:p-[30px]">
                     <h1 class="text-[30px] text-[#133063]">For Innovation team</h1>
                     <p>Questions explained agreeable preferred strangers too him her son. Set put shyness offices his females him distant. Improve has message besides shy himself cheered however how son.</p>
                 </div>
-                <div class="shadow-2xl w-[340px] p-[10px] md:w-[523px] h-[191px] md:p-[30px]">
+                <div class="shadow-2xl  p-[25px] md:w-[523px] h-[191px] md:p-[30px]">
                     <h1 class="text-[30px] text-[#133063]">For Consultancies</h1>
                     <p>Quick judge other leave ask first chief her. Indeed or remark always silent seemed narrow be. Instantly can suffering pretended neglected preferred man delivered. </p>
                 </div>
@@ -87,10 +103,10 @@
         </section>
 
         <!-- moveing area -->
-       <section class="flex flex-wrap md:flex-nowrap justify-around md:mt-[129px] p-[30px]">
-        <div class="mt-[80px]">
-            <h1 class="text-[50px] w-[400px] leading-[62px] text-[#133063]">Moving waters green form</h1>
-            <p class="leading-[28px] w-[322px]">Seasons earth day night, likeness waters, fill fruitful us firmament good the fourth. </p>
+       <section class=" bg-gradient-to-r from-pink-100 via-sky-100 to-pink-100 flex flex-wrap md:flex-nowrap justify-around md:mt-[129px] p-[30px]">
+        <div class="md:mt-[80px]">
+            <h1 class="text-[50px] md:w-[400px] leading-[62px] text-[#133063]">Moving waters green form</h1>
+            <p class="leading-[28px] md:w-[322px]">Seasons earth day night, likeness waters, fill fruitful us firmament good the fourth. </p>
             <div class="flex justify-start ">
                 <img src="./Image/Icon.png" alt="">
                 <p>Image bearing he dominion</p>
@@ -104,31 +120,31 @@
         </div>
         <div>
         <div class="flex flex-wrap md:flex-nowrap justify-around gap-[40px] mt-[35px]">
-            <div class="shadow-xl p-[30px]">
+            <div class="shadow-xl p-[50px]">
                 <img src="./Image/Icon (1).png" alt="">
                 <h1 class="text-[28px] text-[#133063]">Web Degian</h1>
                 <p class="leading-[25px] md:w-[220px]">It it saying you're created creepeth.</p>
-                <p>LEARN MORE</p>
+                <p class="text-[#133063]">LEARN MORE</p>
             </div>
             <div class="shadow-xl p-[50px]">
                 <img src="./Image/Icon (2).png" alt="">
                 <h1 class="text-[28px] text-[#133063]">Ad-Creatives</h1>
-                <p class="leading-[25px] w-[180px] md:w-[220px]">It it saying you're created creepeth.</p>
-                <p>LEARN MORE</p>
+                <p class="leading-[25px]  md:w-[220px]">It it saying you're created creepeth.</p>
+                <p class="text-[#133063]">LEARN MORE</p>
             </div>
             </div>
             <div class="flex flex-wrap md:flex-nowrap justify-around gap-[40px] mt-[35px]">
             <div class="shadow-xl p-[50px]">
                 <img src="./Image/Icon (3).png" alt="">
                 <h1 class="text-[28px] text-[#133063]">Automation</h1>
-                <p class="leading-[25px] w-[180px] md:w-[220px]">It it saying you're created creepeth.</p>
-                <p>LEARN MORE</p>
+                <p class="leading-[25px]  md:w-[220px]">It it saying you're created creepeth.</p>
+                <p class="text-[#133063]">LEARN MORE</p>
             </div>
-            <div class="shadow-xl p-[20px]">
+            <div class="shadow-xl p-[50px]">
                 <img src="./Image/Icon (4).png" alt="">
                 <h1 class="text-[28px] text-[#133063]">Infographics</h1>
-                <p class="leading-[25px] w-[220px]">It it saying you're created creepeth.</p>
-                <p>LEARN MORE</p>
+                <p class="leading-[25px] md:w-[220px]">It it saying you're created creepeth.</p>
+                <p class="text-[#133063]">LEARN MORE</p>
             </div>
 
         </div>
@@ -138,13 +154,13 @@
        <!-- Lead Generation for Social Media and Viral Marketing -->
         <section class="bg-gradient-to-t to-blue-400 mt-[-40px] md:mt-[119px]">
             <div class="flex flex-wrap md:flex-nowrap justify-center ">
-                <img src="./Image/image and card (3).png" alt="">
-                <div class="mt-[80px]">
-                    <h1 class="text-[35px] leading-[45px] w-[335px] text-[#133063]">Lead Generation for Social Media and Viral Marketing</h1>
-                    <p class="w-[309px] leading-[30px]">Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be.</p>
+                <img class="ml-[30px]" src="./Image/image and card (3).png" alt="">
+                <div class="md:mt-[80px] p-[30px] mt-[-50px]">
+                    <h1 class="text-[35px] leading-[45px] md:w-[335px] text-[#133063]">Lead Generation for Social Media and Viral Marketing</h1>
+                    <p class="md:w-[309px] w-[250px] leading-[30px]">Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be.</p>
                 </div>
             </div>
-            <div class="flex justify-around flex-wrap md:flex-nowrap mt-3">
+            <div class="flex justify-around flex-wrap md:flex-nowrap md:mt-[-100px] gap-4">
                 <div>
                     <h1 class="text-[35px] leading-8 font-bold text-[#133063]">2,500+</h1>
                     <p>Daily New Followers</p>
@@ -160,9 +176,9 @@
             </div>
 
         </section>
-       <section class="md:mt-[122px]">
+       <section class="md:mt-[122px] mt-[70px]">
         <p class="text-center font-bold mt-[30px] text-[#133063]">SOME OF OUR TRUSTED CLIENTS</p>
-        <div class="flex flex-wrap md:flex-nowrap justify-center gap-[30px] mt-[25px]">
+        <div class="flex flex-wrap md:flex-nowrap justify-center gap-[30px] md:mt-[25px]">
             <img src="./Image/大通银行.png" alt="">
             <img src="./Image/Asana-团队协作应用.png" alt="">
             <img src="./Image/Group (2).png" alt="">
@@ -173,7 +189,7 @@
        </section>
        <!-- Need a little more
 home to grow? -->
-       <section class="mt-[132px]">
+       <section class="md:mt-[132px] mt-[-20px]">
         <h1 class="text-center text-[30px] md:text-[45px] font-bold leading-[54px] md:w-[600px] mx-auto mt-[30px] text-[#133063]">Need a little more
             home to grow?</h1>
             <div class="flex justify-center mt-[10px]">
